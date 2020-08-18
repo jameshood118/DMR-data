@@ -1,0 +1,52 @@
+{
+  "name": "dmr-data",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "graphql-api": "vue-cli-service graphql-api",
+    "run-graphql-api": "vue-cli-service run-graphql-api",
+    "prod-graphql-api": "cross-env NODE_ENV=production vue-cli-service run-graphql-api"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.0.0",
+    "apollo-client": "^2.0.1",
+    "apollo-link": "^1.0.0",
+    "apollo-link-context": "^1.0.5",
+    "apollo-link-http": "^1.0.0",
+    "apollo-link-persisted-queries": "^0.1.0",
+    "apollo-link-ws": "^1.0.0",
+    "apollo-upload-client": "^7.0.0-alpha.4",
+    "apollo-utilities": "^1.0.1",
+    "bootstrap-vue": "^2.0.0-rc.2",
+    "graphql": "^0.13.0",
+    "jquery": "^3.3.1",
+    "subscriptions-transport-ws": "^0.9.5",
+    "vue": "^2.5.13",
+    "vue-apollo": "^3.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "eslint-plugin-graphql": "^1.5.0",
+    "graphql-tag": "^2.5.0",
+    "vue-cli-plugin-apollo": "^0.6.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
